@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copyright (c) CopeX GmbH 2017.
+ */
+$product = $this->getProduct();
+foreach ($this->getDisplayedAttributes() as $attribute) {
+
+
+    $label = $attribute->getFrontend()->getLabel($product);
+    $value = $attribute->getFrontend()->getValue($product);
+    if ($value != 0 && $value != "") {
+        echo "<br />" . $label . ":" . $value;
+    }
+}

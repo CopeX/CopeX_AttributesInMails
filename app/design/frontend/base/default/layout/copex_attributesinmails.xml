@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  ~ Copyright (c) CopeX GmbH 2017.
+  -->
+
+<layout>
+    <sales_email_order_items>
+        <reference name="additional.product.info">
+            <block type="copex_attributesinmails/attributes" template="attributesinmails/attributes.phtml"></block>
+        </reference>
+    </sales_email_order_items>
+</layout>

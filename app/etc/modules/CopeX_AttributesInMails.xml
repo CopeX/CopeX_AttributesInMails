@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) CopeX GmbH 2017.
+  -->
+
+<config>
+    <modules>
+        <CopeX_AttributesInMails>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </CopeX_AttributesInMails>
+    </modules>
+</config>

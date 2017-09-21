@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) CopeX GmbH 2017.
+  -->
+
+<config>
+    <modules>
+        <CopeX_AttributesInMails>
+            <version>1.0.0</version>
+        </CopeX_AttributesInMails>
+    </modules>
+    <global>
+        <blocks>
+            <copex_attributesinmails>
+                <class>CopeX_AttributesInMails_Block</class>
+            </copex_attributesinmails>
+        </blocks>
+        <helpers>
+            <copex_attributesinmails>
+                <class>CopeX_AttributesInMails_Helper</class>
+            </copex_attributesinmails>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <copex_attributesinmails>
+                    <file>copex_attributesinmails.xml</file>
+                </copex_attributesinmails>
+            </updates>
+        </layout>
+    </frontend>
+</config>
